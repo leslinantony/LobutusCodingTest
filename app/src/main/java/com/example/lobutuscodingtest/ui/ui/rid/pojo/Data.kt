@@ -1,0 +1,32 @@
+package com.example.lobutuscodingtest.ui.ui.rid.pojo
+
+data class Data(
+    val AssignedToID: String,
+    val AssignedToName: String,
+    val ControllerItemCode: String,
+    val ControllerItemCodeDesc: String,
+    val ControllerSerialNumber: String,
+    val CustomerName: String,
+    val HP: String,
+    val Head: String,
+    val ID: Int,
+    val InstallationID: Int,
+    val MotorItemCode: String,
+    val MotorItemCodeDesc: String,
+    val MotorSerialNumber: String,
+    val ProjectCode: String,
+    val ProjectID: String,
+    val ProjectName: String,
+    val PumpHeadItemCode: String,
+    val PumpHeadItemCodeDesc: String,
+    val PumpHeadSrNo: String,
+    val PumpSetItemCode: String,
+    val PumpSetItemCodeDesc: String,
+    val RID: String,
+    val RID_InvoiceDate: String,
+    val RID_InvoiceNo: String,
+    val RID_PumpHeadType: String,
+    val RID_PumpType: String,
+    val SubInstaller: String,
+    val Year: String
+)
